@@ -5,6 +5,7 @@
 package com.mycompany.tiendaapp;
 
 import com.mycompany.tiendaapp.clases.Carrito;
+import com.mycompany.tiendaapp.clases.Pedido;
 import com.mycompany.tiendaapp.clases.Producto;
 
 /**
@@ -13,7 +14,7 @@ import com.mycompany.tiendaapp.clases.Producto;
 public class TiendaApp {
 
     public static void main(String[] args) {
-        Carrito carr = new Carrito();
+        /*Carrito carr = new Carrito();
         Producto laptop = new Producto
                 .ProductoBuilder(1, "Asus", "Tecnologico", 1500)
                 .setColor("Negro")
@@ -29,6 +30,11 @@ public class TiendaApp {
         System.out.println("**********************");
         carr.agregarProducto(laptop);
         carr.agregarProducto(mesa);
-        carr.mostrarCarrito();
+        carr.mostrarCarrito();*/
+        Pedido pedido = new Pedido();
+        
+        pedido.procesar();
+        pedido.enviar();
+        pedido.entregar();
     }
 }
