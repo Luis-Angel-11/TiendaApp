@@ -14,7 +14,16 @@ public class Producto {
     private String tamaño;
     private int TipoEnvio; //hacerlo con enum opcional
     private boolean envuelto;
-    
+    //agregar stock
+    public String getNombre() {
+        return nombre;
+    }
+    public String getCategoria() {
+        return categoria;
+    }
+    public double getPrecio() {
+        return precio;
+    }    
     public Producto(ProductoBuilder builder){
         this.id= builder.id;
         this.nombre= builder.nombre;
@@ -33,7 +42,7 @@ public class Producto {
         sb.append("*Id: ").append(id);
         sb.append("\nNombre: ").append(nombre);
         sb.append("\nCategoria: ").append(categoria);
-        sb.append("\nColor").append(color);
+        sb.append("\nColor: ").append(color);
         sb.append("\nPrecio: ").append(precio);
         sb.append("\nTamanio: ").append(tamaño);
         sb.append("\nTipo de Envio: ").append(TipoEnvio);
@@ -47,7 +56,7 @@ public class Producto {
         private String color;
         private double precio;
         private String tamaño;
-        private int TipoEnvio; //hacerlo con enum opcional
+        private int TipoEnvio; 
         private boolean envuelto;
         //constructores obligatorios
         public ProductoBuilder(int id, String nombre, String categoria, double precio){

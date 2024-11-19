@@ -4,7 +4,9 @@
 
 package com.mycompany.tiendaapp;
 
-import com.mycompany.tiendaapp.clases.Carrito;
+import com.mycompany.tiendaapp.BaseDatos.Conexion;
+import com.mycompany.tiendaapp.Interfaces.FabricaMuebles;
+import com.mycompany.tiendaapp.clases.FabricaLondon;
 import com.mycompany.tiendaapp.clases.Producto;
 
 /**
@@ -13,22 +15,27 @@ import com.mycompany.tiendaapp.clases.Producto;
 public class TiendaApp {
 
     public static void main(String[] args) {
-        Carrito carr = new Carrito();
-        Producto laptop = new Producto
-                .ProductoBuilder(1, "Asus", "Tecnologico", 1500)
-                .setColor("Negro")
-                .setEnvuelto(true)
-                .setTamaño("mediano")
-                .setTipoEnvio(1)
-                .build();
-        System.out.println(laptop);
-        Producto mesa = new Producto
-                .ProductoBuilder(2, "mesa London", "Mueble", 300)
-                .setColor("Almendra")
-                .build();
-        System.out.println("**********************");
+        //var aplicativo = new App();
+        /*App.setLookAndFeel();
+        App aplicativo = new App();
+        aplicativo.setVisible(true);
+        aplicativo.setLocationRelativeTo(null);
+        /*CarroProducto carr = new CarroProducto();*/
+        
+        
+        /*System.out.println("**********************");
         carr.agregarProducto(laptop);
         carr.agregarProducto(mesa);
         carr.mostrarCarrito();
+        FabricaMuebles l = new FabricaLondon();
+        Producto mesa = l.crearMesa();
+        System.out.println(mesa);*/
+        
+        Conexion cone = Conexion.getConexion();
+        cone.conectar();
+
+        
+        
+        
     }
 }
