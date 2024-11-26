@@ -6,6 +6,7 @@ package com.mycompany.tiendaapp;
 
 import com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatLightOwlIJTheme;
 import com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatMaterialLighterIJTheme;
+import com.mycompany.tiendaapp.Vista.Electro;
 import com.mycompany.tiendaapp.Vista.Muebles;
 import com.mycompany.tiendaapp.clases.Producto;
 import java.awt.BorderLayout;
@@ -41,7 +42,7 @@ public class App extends javax.swing.JFrame {
         contenidoOriginal = Principal.getComponents();
         layoutOriginal = Principal.getLayout();
         this.setLocationRelativeTo(this);
-        setImageLabel(PRUEBA, "src/main/resources/Imagenes1/home1.png");
+        
         setImageLabel(Muebles, "src/main/java/Imagenes/muebles1.jpg");
         setImageLabel(Tecnologia, "src/main/java/Imagenes/tecnologia.jpg");
         setImageLabel(Electro, "src/main/java/Imagenes/electro.jpg");
@@ -49,6 +50,8 @@ public class App extends javax.swing.JFrame {
         setImageLabel(Abarrotes, "src/main/java/Imagenes/abarrotes.jpg");
         setImageLabel(Camara, "src/main/java/Imagenes/limpieza.jpg");
         setImageButton(btnHome, "src/main/resources/Imagenes1/home1.png");
+        setImageButton(btnUser, "src/main/resources/Imagenes1/user.png");
+        setImageButton(btnCart, "src/main/resources/Imagenes1/cart1.png");
     }
     void InitStyle(){
         
@@ -97,117 +100,120 @@ public class App extends javax.swing.JFrame {
 
         Contenido = new javax.swing.JPanel();
         Head = new javax.swing.JPanel();
-        jTextField1 = new javax.swing.JTextField();
         btnHome = new javax.swing.JButton();
-        PRUEBA = new javax.swing.JLabel();
-        btnCarrito = new javax.swing.JButton();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jButton7 = new javax.swing.JButton();
+        btnCart = new javax.swing.JButton();
+        btnUser = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
         Principal = new javax.swing.JPanel();
         Bebidas = new javax.swing.JLabel();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        btnMuebles = new javax.swing.JButton();
+        btnElectro = new javax.swing.JButton();
         Electro = new javax.swing.JLabel();
         texto = new javax.swing.JLabel();
-        jButton5 = new javax.swing.JButton();
+        btnLimpieza = new javax.swing.JButton();
         Camara = new javax.swing.JLabel();
-        jButton8 = new javax.swing.JButton();
+        btnAbarrotes = new javax.swing.JButton();
         Abarrotes = new javax.swing.JLabel();
         Tecnologia = new javax.swing.JLabel();
-        jButton6 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
+        btnTecnologia = new javax.swing.JButton();
+        btnBebidas = new javax.swing.JButton();
         Muebles = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         Contenido.setBackground(new java.awt.Color(255, 255, 255));
 
-        Head.setBackground(new java.awt.Color(12, 100, 120));
+        Head.setBackground(new java.awt.Color(21, 145, 155));
 
-        jTextField1.setText("Buscador");
-
-        btnHome.setBackground(new java.awt.Color(12, 100, 120));
-        btnHome.setText("b");
+        btnHome.setBackground(new java.awt.Color(21, 145, 155));
         btnHome.setBorderPainted(false);
+        btnHome.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnHome.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnHomeActionPerformed(evt);
             }
         });
 
-        PRUEBA.setBackground(new java.awt.Color(204, 204, 204));
-        PRUEBA.setForeground(new java.awt.Color(255, 255, 255));
-
-        btnCarrito.setText("Carrito");
-        btnCarrito.addActionListener(new java.awt.event.ActionListener() {
+        btnCart.setBackground(new java.awt.Color(21, 145, 155));
+        btnCart.setBorderPainted(false);
+        btnCart.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnCart.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnCarritoActionPerformed(evt);
+                btnCartActionPerformed(evt);
             }
         });
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Seleccione--", "Muebles", "Electrodomesticos", "Abarrotes", "Bebidas" }));
+        btnUser.setBackground(new java.awt.Color(21, 145, 155));
+        btnUser.setBorder(null);
+        btnUser.setBorderPainted(false);
+        btnUser.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnUser.setFocusPainted(false);
 
-        jButton7.setText("Cuenta");
+        jLabel1.setText("Bienvenido User");
 
         javax.swing.GroupLayout HeadLayout = new javax.swing.GroupLayout(Head);
         Head.setLayout(HeadLayout);
         HeadLayout.setHorizontalGroup(
             HeadLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(HeadLayout.createSequentialGroup()
-                .addGap(7, 7, 7)
-                .addComponent(PRUEBA, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(btnHome, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(98, 98, 98)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(38, 38, 38)
-                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
-                .addComponent(jButton7)
-                .addGap(18, 18, 18)
-                .addComponent(btnCarrito)
-                .addGap(15, 15, 15))
+                .addGap(16, 16, 16)
+                .addComponent(btnHome, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(149, 149, 149)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnUser, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(39, 39, 39)
+                .addComponent(btnCart, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(37, 37, 37))
         );
         HeadLayout.setVerticalGroup(
             HeadLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(HeadLayout.createSequentialGroup()
-                .addGroup(HeadLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(HeadLayout.createSequentialGroup()
-                        .addGap(17, 17, 17)
-                        .addGroup(HeadLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton7)
-                            .addComponent(btnCarrito)))
+                .addGroup(HeadLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(HeadLayout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(PRUEBA, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE))
+                        .addGroup(HeadLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(btnHome, javax.swing.GroupLayout.DEFAULT_SIZE, 42, Short.MAX_VALUE)
+                            .addComponent(btnUser, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnCart, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(HeadLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(btnHome, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap(31, Short.MAX_VALUE))
+                        .addGap(20, 20, 20)
+                        .addComponent(jLabel1)))
+                .addContainerGap(29, Short.MAX_VALUE))
         );
 
         Principal.setPreferredSize(new java.awt.Dimension(770, 467));
 
-        jButton3.setText("Bebidas");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        btnMuebles.setText("Muebles");
+        btnMuebles.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnMuebles.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                btnMueblesActionPerformed(evt);
             }
         });
 
-        jButton4.setText("Electro");
+        btnElectro.setText("Electro");
+        btnElectro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnElectro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnElectroActionPerformed(evt);
+            }
+        });
 
         texto.setText("Nuestras Categorias");
 
-        jButton5.setText("Limpieza");
+        btnLimpieza.setBackground(new java.awt.Color(0, 255, 204));
+        btnLimpieza.setText("Limpieza");
+        btnLimpieza.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        jButton8.setText("Abarrotes");
+        btnAbarrotes.setText("Abarrotes");
+        btnAbarrotes.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        jButton6.setText("Tecnologia");
+        btnTecnologia.setText("Tecnologia");
+        btnTecnologia.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        jButton9.setText("Muebles");
+        btnBebidas.setText("Bebidas");
+        btnBebidas.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         javax.swing.GroupLayout PrincipalLayout = new javax.swing.GroupLayout(Principal);
         Principal.setLayout(PrincipalLayout);
@@ -220,18 +226,18 @@ public class App extends javax.swing.JFrame {
                         .addComponent(texto))
                     .addGroup(PrincipalLayout.createSequentialGroup()
                         .addGap(113, 113, 113)
-                        .addComponent(jButton3)
+                        .addComponent(btnMuebles)
                         .addGap(165, 165, 165)
-                        .addComponent(jButton4)
+                        .addComponent(btnElectro)
                         .addGap(162, 162, 162)
-                        .addComponent(jButton5))
+                        .addComponent(btnLimpieza))
                     .addGroup(PrincipalLayout.createSequentialGroup()
                         .addGap(110, 110, 110)
-                        .addComponent(jButton9)
+                        .addComponent(btnBebidas)
                         .addGap(165, 165, 165)
-                        .addComponent(jButton6)
+                        .addComponent(btnTecnologia)
                         .addGap(141, 141, 141)
-                        .addComponent(jButton8))
+                        .addComponent(btnAbarrotes))
                     .addGroup(PrincipalLayout.createSequentialGroup()
                         .addGap(96, 96, 96)
                         .addGroup(PrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -248,7 +254,7 @@ public class App extends javax.swing.JFrame {
                                 .addComponent(Electro, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(125, 125, 125)
                                 .addComponent(Camara, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(95, Short.MAX_VALUE))
         );
         PrincipalLayout.setVerticalGroup(
             PrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -262,9 +268,9 @@ public class App extends javax.swing.JFrame {
                     .addComponent(Camara, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(12, 12, 12)
                 .addGroup(PrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton3)
-                    .addComponent(jButton4)
-                    .addComponent(jButton5))
+                    .addComponent(btnMuebles)
+                    .addComponent(btnElectro)
+                    .addComponent(btnLimpieza))
                 .addGap(76, 76, 76)
                 .addGroup(PrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(Muebles, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -272,9 +278,9 @@ public class App extends javax.swing.JFrame {
                     .addComponent(Abarrotes, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(39, 39, 39)
                 .addGroup(PrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton9)
-                    .addComponent(jButton6)
-                    .addComponent(jButton8))
+                    .addComponent(btnBebidas)
+                    .addComponent(btnTecnologia)
+                    .addComponent(btnAbarrotes))
                 .addContainerGap(28, Short.MAX_VALUE))
         );
 
@@ -312,11 +318,12 @@ public class App extends javax.swing.JFrame {
         restaurarContenidoOriginal();
     }//GEN-LAST:event_btnHomeActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void btnMueblesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMueblesActionPerformed
         vistaPanel(new Muebles());
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_btnMueblesActionPerformed
 
-    private void btnCarritoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCarritoActionPerformed
+    private void btnCartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCartActionPerformed
+        
         this.setLocationRelativeTo(null);
         this.setVisible(false);
         //Carrito carritoFrame = new Carrito(App.carritoModel);
@@ -324,7 +331,11 @@ public class App extends javax.swing.JFrame {
         var aplicativo = new Carrito();
         aplicativo.setVisible(true);
         aplicativo.setLocationRelativeTo(null);
-    }//GEN-LAST:event_btnCarritoActionPerformed
+    }//GEN-LAST:event_btnCartActionPerformed
+
+    private void btnElectroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnElectroActionPerformed
+        vistaPanel(new Electro());
+    }//GEN-LAST:event_btnElectroActionPerformed
 
     public static void setLookAndFeel(){
         try {
@@ -355,20 +366,18 @@ public class App extends javax.swing.JFrame {
     private javax.swing.JLabel Electro;
     private javax.swing.JPanel Head;
     private javax.swing.JLabel Muebles;
-    private javax.swing.JLabel PRUEBA;
     private javax.swing.JPanel Principal;
     private javax.swing.JLabel Tecnologia;
-    private javax.swing.JButton btnCarrito;
+    private javax.swing.JButton btnAbarrotes;
+    private javax.swing.JButton btnBebidas;
+    private javax.swing.JButton btnCart;
+    private javax.swing.JButton btnElectro;
     private javax.swing.JButton btnHome;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JTextField jTextField1;
+    private javax.swing.JButton btnLimpieza;
+    private javax.swing.JButton btnMuebles;
+    private javax.swing.JButton btnTecnologia;
+    private javax.swing.JButton btnUser;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel texto;
     // End of variables declaration//GEN-END:variables
 }

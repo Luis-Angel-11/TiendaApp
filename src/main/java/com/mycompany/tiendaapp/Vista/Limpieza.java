@@ -25,12 +25,12 @@ import javax.swing.SwingUtilities;
  *
  * @author ASUS
  */
-public class Muebles extends javax.swing.JPanel {
+public class Limpieza extends javax.swing.JPanel {
     //private CarritoLista infoCarrito = new CarritoLista();
     //private CarritoLista carrito;
     //private DefaultListModel<Producto> carritoModel;
      
-    public Muebles() {
+    public Limpieza() {
         initComponents();
         MostrarImagenes();
         //carritoModel = new DefaultListModel<>();
@@ -45,22 +45,22 @@ public class Muebles extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        Silla1 = new javax.swing.JLabel();
-        Sofa1 = new javax.swing.JLabel();
+        aromatizador = new javax.swing.JLabel();
+        ayudin = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
-        Mesa1 = new javax.swing.JLabel();
-        txtSillaL = new javax.swing.JTextField();
-        Silla2 = new javax.swing.JLabel();
-        Sofa2 = new javax.swing.JLabel();
-        Mesa2 = new javax.swing.JLabel();
-        txtMesaL = new javax.swing.JTextField();
-        txtSofaL = new javax.swing.JTextField();
-        txtSofaK = new javax.swing.JTextField();
-        txtMesaK = new javax.swing.JTextField();
-        txtSillaK = new javax.swing.JTextField();
+        cera = new javax.swing.JLabel();
+        txtAromatizador = new javax.swing.JTextField();
+        downy = new javax.swing.JLabel();
+        bolivar = new javax.swing.JLabel();
+        papel = new javax.swing.JLabel();
+        txtCera = new javax.swing.JTextField();
+        txtAyudin = new javax.swing.JTextField();
+        txtBolivar = new javax.swing.JTextField();
+        txtPapel = new javax.swing.JTextField();
+        txtDowny = new javax.swing.JTextField();
         btnAgregar = new javax.swing.JButton();
         btnLimpiar = new javax.swing.JButton();
         btnCarrito = new javax.swing.JButton();
@@ -68,11 +68,11 @@ public class Muebles extends javax.swing.JPanel {
         setBackground(new java.awt.Color(255, 255, 255));
         setName("Principal"); // NOI18N
 
-        Silla1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Silla1.setText("Silla");
+        aromatizador.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        aromatizador.setText("licua");
 
-        Sofa1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Sofa1.setText("Sofa");
+        ayudin.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        ayudin.setText("refri");
 
         jPanel1.setBackground(new java.awt.Color(21, 145, 155));
 
@@ -110,17 +110,17 @@ public class Muebles extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        Mesa1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Mesa1.setText("Mesa");
+        cera.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        cera.setText("aire");
 
-        Silla2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Silla2.setText("Silla2");
+        downy.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        downy.setText("ventila");
 
-        Sofa2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Sofa2.setText("Sofa2");
+        bolivar.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        bolivar.setText("Microo");
 
-        Mesa2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Mesa2.setText("Mesa2");
+        papel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        papel.setText("Aspirad");
 
         btnAgregar.setBackground(new java.awt.Color(9, 209, 199));
         btnAgregar.setText("agregar");
@@ -169,32 +169,34 @@ public class Muebles extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Silla2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(downy, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(9, 9, 9)
-                                        .addComponent(txtSillaL, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(txtAromatizador, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(13, 13, 13)
-                                        .addComponent(txtSillaK, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addComponent(txtDowny, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGap(78, 78, 78)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Sofa2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(bolivar, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(11, 11, 11)
-                                        .addComponent(txtSofaK, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(txtBolivar, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(12, 12, 12)
-                                        .addComponent(txtSofaL, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(txtAyudin, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(Silla1, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(aromatizador, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(78, 78, 78)
-                                .addComponent(Sofa1, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(ayudin, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(88, 88, 88)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Mesa2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Mesa1, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtMesaK, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtMesaL, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(papel, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(cera, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtPapel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(13, 13, 13)
+                                .addComponent(txtCera, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(38, 38, 38))))
         );
         layout.setVerticalGroup(
@@ -202,24 +204,24 @@ public class Muebles extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(19, 19, 19)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Silla1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Sofa1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Mesa1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(aromatizador, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ayudin, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cera, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(42, 42, 42)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtSillaL, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtSofaL, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtMesaL, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtAromatizador, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtAyudin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtCera, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Sofa2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Silla2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Mesa2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(bolivar, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(downy, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(papel, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(40, 40, 40)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtSillaK, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtSofaK, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtMesaK, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtDowny, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtBolivar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtPapel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(33, 33, 33)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnAgregar)
@@ -236,13 +238,12 @@ public class Muebles extends javax.swing.JPanel {
             @Override
             public void componentResized(ComponentEvent e) {
                 
-                setImageLabel(Silla1, "src/main/resources/Imagenes1/silla1.jpg");
-                setImageLabel(Sofa1, "src/main/resources/Imagenes1/sofa1.jpg");
-                setImageLabel(Mesa1, "src/main/resources/Imagenes1/mesa1.jpg");
-                //setImageLabel(Sofa2, "src/main/java/Imagenes/sofa2.jpg");
-                setImageLabel(Silla2, "src/main/resources/Imagenes1/silla2.jpg");
-                setImageLabel(Sofa2, "src/main/resources/Imagenes1/sofa2.jpg");
-                setImageLabel(Mesa2, "src/main/resources/Imagenes1/mesa2.jpg");
+                setImageLabel(aromatizador, "src/main/resources/Imagenes1/aromatizador.jpg");
+                setImageLabel(ayudin, "src/main/resources/Imagenes1/ayudin.png");
+                setImageLabel(cera, "src/main/resources/Imagenes1/cera.jpg");
+                setImageLabel(downy, "src/main/resources/Imagenes1/downy.jpg");
+                setImageLabel(bolivar, "src/main/resources/Imagenes1/Bolivar.jpg");
+                setImageLabel(papel, "src/main/resources/Imagenes1/Papel.jpg");
             }
         });
     }
@@ -263,46 +264,41 @@ public class Muebles extends javax.swing.JPanel {
     }//GEN-LAST:event_btnLimpiarActionPerformed
 
     private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarActionPerformed
+        Producto p1 = new Producto.ProductoBuilder(1, "Refrigeradora", "Electro", 1200).build();
+        Producto p2 = new Producto.ProductoBuilder(1, "Licuadora", "Electro", 350).build();
+        Producto p3 = new Producto.ProductoBuilder(1, "Aire Acondicionado", "Electro", 1500).build();
+        Producto p4 = new Producto.ProductoBuilder(1, "Aspiradora", "Electro", 800).build();
+        Producto p5 = new Producto.ProductoBuilder(1, "Microondas", "Electro", 500).build();
+        Producto p6 = new Producto.ProductoBuilder(1, "Ventiladora", "Electro", 300).build();
         
-        FabricaMuebles fabrica = new FabricaLondon();
-        Producto mesa = fabrica.crearMesa();
-        Producto silla = fabrica.crearSilla();
-        Producto sofa = fabrica.crearSofa();
-        FabricaMuebles fabrica2 = new FabricaKali();
-        Producto mesa2 = fabrica2.crearMesa();
-        Producto silla2 = fabrica2.crearSilla();
-        Producto sofa2 = fabrica2.crearSofa();
+        String aux1 = txtPapel.getText();
+        String aux2 = txtCera.getText();
+        String aux3 = txtDowny.getText();
+        String aux4 = txtAromatizador.getText();
+        String aux5 = txtBolivar.getText();
+        String aux6 = txtAyudin.getText();
         
-        String aux1 = txtMesaK.getText();
-        String aux2 = txtMesaL.getText();
-        String aux3 = txtSillaK.getText();
-        String aux4 = txtSillaL.getText();
-        String aux5 = txtSofaK.getText();
-        String aux6 = txtSofaL.getText();
-        
-        if(aux1.isBlank()){aux1="0";txtMesaK.setText("0");}
-        if(aux2.isBlank()){aux2="0";txtMesaL.setText("0");}
-        if(aux3.isBlank()){aux3="0";txtSillaK.setText("0");}
-        if(aux4.isBlank()){aux4="0";txtSillaL.setText("0");}
-        if(aux5.isBlank()){aux5="0";txtSofaK.setText("0");}
-        if(aux6.isBlank()){aux6="0";txtSofaL.setText("0");}
+        if(aux1.isBlank()){aux1="0";txtPapel.setText("0");}
+        if(aux2.isBlank()){aux2="0";txtCera.setText("0");}
+        if(aux3.isBlank()){aux3="0";txtDowny.setText("0");}
+        if(aux4.isBlank()){aux4="0";txtAromatizador.setText("0");}
+        if(aux5.isBlank()){aux5="0";txtBolivar.setText("0");}
+        if(aux6.isBlank()){aux6="0";txtAyudin.setText("0");}
         
         if(aux1.matches("[0-9]+") && aux2.matches("[0-9]+")&& aux3.matches("[0-9]+")&& aux4.matches("[0-9]+")&& aux5.matches("[0-9]+")&& aux6.matches("[0-9]+")){
-            int cantMesa = Integer.parseInt(txtMesaK.getText());
-            int cantMesa1 = Integer.parseInt(txtMesaL.getText());
-            int cantSilla = Integer.parseInt(txtSillaK.getText());
-            int cantSilla1 = Integer.parseInt(txtSillaL.getText());
-            int cantSofa = Integer.parseInt(txtSofaK.getText());
-            int cantSofa1 = Integer.parseInt(txtSofaL.getText());
-            //App.carritoModel.addElement(mesa);
-            //App.carritoModel.addElement(silla);
-            //App.carritoModel.addElement(sofa);
-            for (int i = 0; i < cantSilla1; i++) {App.lista.add(silla);}
-            for (int i = 0; i < cantSofa1; i++) {App.lista.add(sofa);}
-            for (int i = 0; i < cantMesa1; i++) {App.lista.add(mesa);}
-            for (int i = 0; i < cantSilla; i++) {App.lista.add(silla2);}
-            for (int i = 0; i < cantSofa; i++) {App.lista.add(sofa2);}
-            for (int i = 0; i < cantMesa; i++) {App.lista.add(mesa2);}
+            int cantAspiradora = Integer.parseInt(txtPapel.getText());
+            int cantAire = Integer.parseInt(txtCera.getText());
+            int cantVentilador = Integer.parseInt(txtDowny.getText());
+            int cantLicuadora = Integer.parseInt(txtAromatizador.getText());
+            int cantMicroondas = Integer.parseInt(txtBolivar.getText());
+            int cantRefri = Integer.parseInt(txtAyudin.getText());
+            
+            for (int i = 0; i < cantAire; i++) {App.lista.add(p3);}
+            for (int i = 0; i < cantAspiradora; i++) {App.lista.add(p4);}
+            for (int i = 0; i < cantLicuadora; i++) {App.lista.add(p2);}
+            for (int i = 0; i < cantMicroondas; i++) {App.lista.add(p5);}
+            for (int i = 0; i < cantRefri; i++) {App.lista.add(p1);}
+            for (int i = 0; i < cantVentilador; i++) {App.lista.add(p6);}
             limpiar();
         }else{
             JOptionPane.showMessageDialog(null, "Ingrese un numero correcto");
@@ -318,33 +314,33 @@ public class Muebles extends javax.swing.JPanel {
         aplicativo.setLocationRelativeTo(null);
     }//GEN-LAST:event_btnCarritoActionPerformed
     void limpiar(){
-        txtMesaK.setText("");
-        txtSillaK.setText("");
-        txtSofaK.setText("");
-        txtSillaL.setText("");
-        txtSofaL.setText("");
-        txtMesaL.setText("");
+        txtPapel.setText("");
+        txtDowny.setText("");
+        txtBolivar.setText("");
+        txtAromatizador.setText("");
+        txtAyudin.setText("");
+        txtCera.setText("");
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel Mesa1;
-    private javax.swing.JLabel Mesa2;
-    private javax.swing.JLabel Silla1;
-    private javax.swing.JLabel Silla2;
-    private javax.swing.JLabel Sofa1;
-    private javax.swing.JLabel Sofa2;
+    private javax.swing.JLabel aromatizador;
+    private javax.swing.JLabel ayudin;
+    private javax.swing.JLabel bolivar;
     private javax.swing.JButton btnAgregar;
     private javax.swing.JButton btnCarrito;
     private javax.swing.JButton btnLimpiar;
+    private javax.swing.JLabel cera;
+    private javax.swing.JLabel downy;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JTextField txtMesaK;
-    private javax.swing.JTextField txtMesaL;
-    private javax.swing.JTextField txtSillaK;
-    private javax.swing.JTextField txtSillaL;
-    private javax.swing.JTextField txtSofaK;
-    private javax.swing.JTextField txtSofaL;
+    private javax.swing.JLabel papel;
+    private javax.swing.JTextField txtAromatizador;
+    private javax.swing.JTextField txtAyudin;
+    private javax.swing.JTextField txtBolivar;
+    private javax.swing.JTextField txtCera;
+    private javax.swing.JTextField txtDowny;
+    private javax.swing.JTextField txtPapel;
     // End of variables declaration//GEN-END:variables
 }

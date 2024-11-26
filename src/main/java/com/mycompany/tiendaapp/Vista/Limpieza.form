@@ -40,41 +40,44 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="Silla2" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="downy" min="-2" pref="110" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
-                                      <Component id="txtSillaL" min="-2" pref="93" max="-2" attributes="0"/>
+                                      <Component id="txtAromatizador" min="-2" pref="93" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
-                                      <Component id="txtSillaK" min="-2" pref="86" max="-2" attributes="0"/>
+                                      <Component id="txtDowny" min="-2" pref="86" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace min="78" pref="78" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="Sofa2" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="bolivar" min="-2" pref="110" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                                      <Component id="txtSofaK" min="-2" pref="89" max="-2" attributes="0"/>
+                                      <Component id="txtBolivar" min="-2" pref="89" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                      <Component id="txtSofaL" min="-2" pref="83" max="-2" attributes="0"/>
+                                      <Component id="txtAyudin" min="-2" pref="83" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="Silla1" min="-2" pref="110" max="-2" attributes="0"/>
+                              <Component id="aromatizador" min="-2" pref="110" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
-                              <Component id="Sofa1" min="-2" pref="110" max="-2" attributes="0"/>
+                              <Component id="ayudin" min="-2" pref="110" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="88" pref="88" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="Mesa2" min="-2" pref="110" max="-2" attributes="0"/>
-                          <Component id="Mesa1" min="-2" pref="110" max="-2" attributes="0"/>
-                          <Component id="txtMesaK" alignment="1" min="-2" pref="97" max="-2" attributes="0"/>
-                          <Component id="txtMesaL" alignment="1" min="-2" pref="88" max="-2" attributes="0"/>
+                          <Component id="papel" min="-2" pref="110" max="-2" attributes="0"/>
+                          <Component id="cera" min="-2" pref="110" max="-2" attributes="0"/>
+                          <Component id="txtPapel" alignment="1" min="-2" pref="97" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                              <Component id="txtCera" min="-2" pref="88" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                       <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                   </Group>
@@ -87,27 +90,27 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="Silla1" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
-                  <Component id="Sofa1" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
-                  <Component id="Mesa1" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="aromatizador" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="ayudin" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="cera" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtSillaL" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtSofaL" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtMesaL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAromatizador" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAyudin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCera" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="Sofa2" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
-                  <Component id="Silla2" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
-                  <Component id="Mesa2" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="bolivar" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="downy" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="papel" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtSillaK" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtSofaK" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtMesaK" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDowny" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtBolivar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtPapel" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -122,16 +125,16 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="Silla1">
+    <Component class="javax.swing.JLabel" name="aromatizador">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="Silla"/>
+        <Property name="text" type="java.lang.String" value="licua"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="Sofa1">
+    <Component class="javax.swing.JLabel" name="ayudin">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="Sofa"/>
+        <Property name="text" type="java.lang.String" value="refri"/>
       </Properties>
     </Component>
     <Container class="javax.swing.JPanel" name="jPanel1">
@@ -194,41 +197,41 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JLabel" name="Mesa1">
+    <Component class="javax.swing.JLabel" name="cera">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="Mesa"/>
+        <Property name="text" type="java.lang.String" value="aire"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtSillaL">
+    <Component class="javax.swing.JTextField" name="txtAromatizador">
     </Component>
-    <Component class="javax.swing.JLabel" name="Silla2">
+    <Component class="javax.swing.JLabel" name="downy">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="Silla2"/>
+        <Property name="text" type="java.lang.String" value="ventila"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="Sofa2">
+    <Component class="javax.swing.JLabel" name="bolivar">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="Sofa2"/>
+        <Property name="text" type="java.lang.String" value="Microo"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="Mesa2">
+    <Component class="javax.swing.JLabel" name="papel">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="Mesa2"/>
+        <Property name="text" type="java.lang.String" value="Aspirad"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtMesaL">
+    <Component class="javax.swing.JTextField" name="txtCera">
     </Component>
-    <Component class="javax.swing.JTextField" name="txtSofaL">
+    <Component class="javax.swing.JTextField" name="txtAyudin">
     </Component>
-    <Component class="javax.swing.JTextField" name="txtSofaK">
+    <Component class="javax.swing.JTextField" name="txtBolivar">
     </Component>
-    <Component class="javax.swing.JTextField" name="txtMesaK">
+    <Component class="javax.swing.JTextField" name="txtPapel">
     </Component>
-    <Component class="javax.swing.JTextField" name="txtSillaK">
+    <Component class="javax.swing.JTextField" name="txtDowny">
     </Component>
     <Component class="javax.swing.JButton" name="btnAgregar">
       <Properties>
