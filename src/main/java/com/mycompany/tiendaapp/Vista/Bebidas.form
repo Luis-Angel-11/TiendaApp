@@ -40,7 +40,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="ventilador" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="fanta" min="-2" pref="110" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
                                       <Component id="txtLicuadora" min="-2" pref="93" max="-2" attributes="0"/>
@@ -52,7 +52,7 @@
                               </Group>
                               <EmptySpace min="78" pref="78" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="microondas" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="sporade" min="-2" pref="110" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
                                       <Component id="txtMicroondas" min="-2" pref="89" max="-2" attributes="0"/>
@@ -64,17 +64,17 @@
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="licuadora" min="-2" pref="110" max="-2" attributes="0"/>
+                              <Component id="Blue" min="-2" pref="110" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
-                              <Component id="refri" min="-2" pref="110" max="-2" attributes="0"/>
+                              <Component id="agua" min="-2" pref="110" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <EmptySpace min="88" pref="88" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="aspiradora" min="-2" pref="110" max="-2" attributes="0"/>
-                                  <Component id="aire" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="vino" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="coca" min="-2" pref="110" max="-2" attributes="0"/>
                                   <Component id="txtAspiradora" alignment="1" min="-2" pref="97" max="-2" attributes="0"/>
                               </Group>
                           </Group>
@@ -94,9 +94,9 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="licuadora" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
-                  <Component id="refri" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
-                  <Component id="aire" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="Blue" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="agua" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="coca" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -106,9 +106,9 @@
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="microondas" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
-                  <Component id="ventilador" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
-                  <Component id="aspiradora" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="sporade" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="fanta" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="vino" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -129,13 +129,13 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="licuadora">
+    <Component class="javax.swing.JLabel" name="Blue">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="licua"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="refri">
+    <Component class="javax.swing.JLabel" name="agua">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="refri"/>
@@ -201,7 +201,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JLabel" name="aire">
+    <Component class="javax.swing.JLabel" name="coca">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="aire"/>
@@ -209,19 +209,19 @@
     </Component>
     <Component class="javax.swing.JTextField" name="txtLicuadora">
     </Component>
-    <Component class="javax.swing.JLabel" name="ventilador">
+    <Component class="javax.swing.JLabel" name="fanta">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="ventila"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="microondas">
+    <Component class="javax.swing.JLabel" name="sporade">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Microo"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="aspiradora">
+    <Component class="javax.swing.JLabel" name="vino">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Aspirad"/>

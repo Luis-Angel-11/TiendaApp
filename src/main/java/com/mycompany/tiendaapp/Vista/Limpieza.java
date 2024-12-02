@@ -239,8 +239,8 @@ public class Limpieza extends javax.swing.JPanel {
             public void componentResized(ComponentEvent e) {
                 
                 setImageLabel(aromatizador, "src/main/resources/Imagenes1/aromatizador.jpg");
-                setImageLabel(ayudin, "src/main/resources/Imagenes1/ayudin.png");
-                setImageLabel(cera, "src/main/resources/Imagenes1/cera.jpg");
+                setImageLabel(ayudin, "src/main/resources/Imagenes1/ayudin.jpg");
+                setImageLabel(cera, "src/main/resources/Imagenes1/cera.png");
                 setImageLabel(downy, "src/main/resources/Imagenes1/downy.jpg");
                 setImageLabel(bolivar, "src/main/resources/Imagenes1/Bolivar.jpg");
                 setImageLabel(papel, "src/main/resources/Imagenes1/Papel.jpg");
@@ -286,19 +286,19 @@ public class Limpieza extends javax.swing.JPanel {
         if(aux6.isBlank()){aux6="0";txtAyudin.setText("0");}
         
         if(aux1.matches("[0-9]+") && aux2.matches("[0-9]+")&& aux3.matches("[0-9]+")&& aux4.matches("[0-9]+")&& aux5.matches("[0-9]+")&& aux6.matches("[0-9]+")){
-            int cantAspiradora = Integer.parseInt(txtPapel.getText());
-            int cantAire = Integer.parseInt(txtCera.getText());
-            int cantVentilador = Integer.parseInt(txtDowny.getText());
-            int cantLicuadora = Integer.parseInt(txtAromatizador.getText());
-            int cantMicroondas = Integer.parseInt(txtBolivar.getText());
-            int cantRefri = Integer.parseInt(txtAyudin.getText());
+            int cantA = Integer.parseInt(txtPapel.getText());
+            int cantB = Integer.parseInt(txtCera.getText());
+            int cantC = Integer.parseInt(txtDowny.getText());
+            int cantD = Integer.parseInt(txtAromatizador.getText());
+            int cantE = Integer.parseInt(txtBolivar.getText());
+            int cantF = Integer.parseInt(txtAyudin.getText());
             
-            for (int i = 0; i < cantAire; i++) {App.lista.add(p3);}
-            for (int i = 0; i < cantAspiradora; i++) {App.lista.add(p4);}
-            for (int i = 0; i < cantLicuadora; i++) {App.lista.add(p2);}
-            for (int i = 0; i < cantMicroondas; i++) {App.lista.add(p5);}
-            for (int i = 0; i < cantRefri; i++) {App.lista.add(p1);}
-            for (int i = 0; i < cantVentilador; i++) {App.lista.add(p6);}
+            for (int i = 0; i < cantB; i++) {App.lista.add(p3);}
+            for (int i = 0; i < cantA; i++) {App.lista.add(p4);}
+            for (int i = 0; i < cantD; i++) {App.lista.add(p2);}
+            for (int i = 0; i < cantE; i++) {App.lista.add(p5);}
+            for (int i = 0; i < cantF; i++) {App.lista.add(p1);}
+            for (int i = 0; i < cantC; i++) {App.lista.add(p6);}
             limpiar();
         }else{
             JOptionPane.showMessageDialog(null, "Ingrese un numero correcto");

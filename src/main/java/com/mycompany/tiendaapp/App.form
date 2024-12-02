@@ -190,8 +190,8 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="Bebidas" min="-2" pref="110" max="-2" attributes="0"/>
-                                  <Component id="Muebles" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="muebles" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="bebidas" min="-2" pref="110" max="-2" attributes="0"/>
                               </Group>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
@@ -220,7 +220,7 @@
                       <Component id="texto" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="38" pref="38" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="Bebidas" min="-2" pref="100" max="-2" attributes="0"/>
+                          <Component id="muebles" min="-2" pref="100" max="-2" attributes="0"/>
                           <Component id="Electro" min="-2" pref="100" max="-2" attributes="0"/>
                           <Component id="Camara" min="-2" pref="100" max="-2" attributes="0"/>
                       </Group>
@@ -232,7 +232,7 @@
                       </Group>
                       <EmptySpace min="76" pref="76" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="Muebles" min="-2" pref="100" max="-2" attributes="0"/>
+                          <Component id="bebidas" min="-2" pref="100" max="-2" attributes="0"/>
                           <Component id="Tecnologia" min="-2" pref="100" max="-2" attributes="0"/>
                           <Component id="Abarrotes" min="-2" pref="100" max="-2" attributes="0"/>
                       </Group>
@@ -248,7 +248,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="Bebidas">
+            <Component class="javax.swing.JLabel" name="muebles">
             </Component>
             <Component class="javax.swing.JButton" name="btnMuebles">
               <Properties>
@@ -289,6 +289,9 @@
                   <Color id="Hand Cursor"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLimpiezaActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="Camara">
             </Component>
@@ -299,6 +302,9 @@
                   <Color id="Hand Cursor"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAbarrotesActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="Abarrotes">
             </Component>
@@ -311,6 +317,9 @@
                   <Color id="Hand Cursor"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTecnologiaActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="btnBebidas">
               <Properties>
@@ -319,8 +328,11 @@
                   <Color id="Hand Cursor"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBebidasActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JLabel" name="Muebles">
+            <Component class="javax.swing.JLabel" name="bebidas">
             </Component>
           </SubComponents>
         </Container>

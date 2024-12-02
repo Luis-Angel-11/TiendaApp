@@ -6,8 +6,12 @@ package com.mycompany.tiendaapp;
 
 import com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatLightOwlIJTheme;
 import com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatMaterialLighterIJTheme;
+import com.mycompany.tiendaapp.Vista.Abarrotes;
+import com.mycompany.tiendaapp.Vista.Bebidas;
 import com.mycompany.tiendaapp.Vista.Electro;
+import com.mycompany.tiendaapp.Vista.Limpieza;
 import com.mycompany.tiendaapp.Vista.Muebles;
+import com.mycompany.tiendaapp.Vista.Tecnologia;
 import com.mycompany.tiendaapp.clases.Producto;
 import java.awt.BorderLayout;
 import java.awt.Component;
@@ -38,15 +42,16 @@ public class App extends javax.swing.JFrame {
         initComponents();
         SubirImagenes();
     }
+    
     void SubirImagenes(){
         contenidoOriginal = Principal.getComponents();
         layoutOriginal = Principal.getLayout();
         this.setLocationRelativeTo(this);
         
-        setImageLabel(Muebles, "src/main/java/Imagenes/muebles1.jpg");
+        setImageLabel(bebidas, "src/main/java/Imagenes/bebidas.jpg");
         setImageLabel(Tecnologia, "src/main/java/Imagenes/tecnologia.jpg");
         setImageLabel(Electro, "src/main/java/Imagenes/electro.jpg");
-        setImageLabel(Bebidas, "src/main/java/Imagenes/bebidas.jpg");
+        setImageLabel(muebles, "src/main/java/Imagenes/muebles1.jpg");
         setImageLabel(Abarrotes, "src/main/java/Imagenes/abarrotes.jpg");
         setImageLabel(Camara, "src/main/java/Imagenes/limpieza.jpg");
         setImageButton(btnHome, "src/main/resources/Imagenes1/home1.png");
@@ -105,7 +110,7 @@ public class App extends javax.swing.JFrame {
         btnUser = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         Principal = new javax.swing.JPanel();
-        Bebidas = new javax.swing.JLabel();
+        muebles = new javax.swing.JLabel();
         btnMuebles = new javax.swing.JButton();
         btnElectro = new javax.swing.JButton();
         Electro = new javax.swing.JLabel();
@@ -117,7 +122,7 @@ public class App extends javax.swing.JFrame {
         Tecnologia = new javax.swing.JLabel();
         btnTecnologia = new javax.swing.JButton();
         btnBebidas = new javax.swing.JButton();
-        Muebles = new javax.swing.JLabel();
+        bebidas = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -205,15 +210,35 @@ public class App extends javax.swing.JFrame {
         btnLimpieza.setBackground(new java.awt.Color(0, 255, 204));
         btnLimpieza.setText("Limpieza");
         btnLimpieza.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnLimpieza.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLimpiezaActionPerformed(evt);
+            }
+        });
 
         btnAbarrotes.setText("Abarrotes");
         btnAbarrotes.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnAbarrotes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAbarrotesActionPerformed(evt);
+            }
+        });
 
         btnTecnologia.setText("Tecnologia");
         btnTecnologia.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnTecnologia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTecnologiaActionPerformed(evt);
+            }
+        });
 
         btnBebidas.setText("Bebidas");
         btnBebidas.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnBebidas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnBebidasActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout PrincipalLayout = new javax.swing.GroupLayout(Principal);
         Principal.setLayout(PrincipalLayout);
@@ -241,8 +266,8 @@ public class App extends javax.swing.JFrame {
                     .addGroup(PrincipalLayout.createSequentialGroup()
                         .addGap(96, 96, 96)
                         .addGroup(PrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(Bebidas, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Muebles, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(muebles, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(bebidas, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(PrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(PrincipalLayout.createSequentialGroup()
                                 .addGap(127, 127, 127)
@@ -263,7 +288,7 @@ public class App extends javax.swing.JFrame {
                 .addComponent(texto)
                 .addGap(38, 38, 38)
                 .addGroup(PrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Bebidas, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(muebles, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Electro, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Camara, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(12, 12, 12)
@@ -273,7 +298,7 @@ public class App extends javax.swing.JFrame {
                     .addComponent(btnLimpieza))
                 .addGap(76, 76, 76)
                 .addGroup(PrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Muebles, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bebidas, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Tecnologia, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Abarrotes, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(39, 39, 39)
@@ -337,6 +362,22 @@ public class App extends javax.swing.JFrame {
         vistaPanel(new Electro());
     }//GEN-LAST:event_btnElectroActionPerformed
 
+    private void btnLimpiezaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimpiezaActionPerformed
+        vistaPanel(new Limpieza());
+    }//GEN-LAST:event_btnLimpiezaActionPerformed
+
+    private void btnBebidasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBebidasActionPerformed
+        vistaPanel(new Bebidas());
+    }//GEN-LAST:event_btnBebidasActionPerformed
+
+    private void btnTecnologiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTecnologiaActionPerformed
+        vistaPanel(new Tecnologia());
+    }//GEN-LAST:event_btnTecnologiaActionPerformed
+
+    private void btnAbarrotesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAbarrotesActionPerformed
+        vistaPanel(new Abarrotes());
+    }//GEN-LAST:event_btnAbarrotesActionPerformed
+
     public static void setLookAndFeel(){
         try {
             //FlatMaterialLighterIJTheme.setup();
@@ -360,14 +401,13 @@ public class App extends javax.swing.JFrame {
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Abarrotes;
-    private javax.swing.JLabel Bebidas;
     private javax.swing.JLabel Camara;
     private javax.swing.JPanel Contenido;
     private javax.swing.JLabel Electro;
     private javax.swing.JPanel Head;
-    private javax.swing.JLabel Muebles;
     private javax.swing.JPanel Principal;
     private javax.swing.JLabel Tecnologia;
+    private javax.swing.JLabel bebidas;
     private javax.swing.JButton btnAbarrotes;
     private javax.swing.JButton btnBebidas;
     private javax.swing.JButton btnCart;
@@ -378,6 +418,7 @@ public class App extends javax.swing.JFrame {
     private javax.swing.JButton btnTecnologia;
     private javax.swing.JButton btnUser;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel muebles;
     private javax.swing.JLabel texto;
     // End of variables declaration//GEN-END:variables
 }

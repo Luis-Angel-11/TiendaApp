@@ -266,12 +266,12 @@ public class Electro extends javax.swing.JPanel {
     }//GEN-LAST:event_btnLimpiarActionPerformed
 
     private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarActionPerformed
-        Producto p1 = new Producto.ProductoBuilder(1, "Refrigeradora", "Electro", 1200).build();
-        Producto p2 = new Producto.ProductoBuilder(1, "Licuadora", "Electro", 350).build();
-        Producto p3 = new Producto.ProductoBuilder(1, "Aire Acondicionado", "Electro", 1500).build();
-        Producto p4 = new Producto.ProductoBuilder(1, "Aspiradora", "Electro", 800).build();
+        Producto p6 = new Producto.ProductoBuilder(1, "Refrigeradora", "Electro", 1200).build();
+        Producto p4 = new Producto.ProductoBuilder(1, "Licuadora", "Electro", 350).build();
+        Producto p2 = new Producto.ProductoBuilder(1, "Aire Acondicionado", "Electro", 1500).build();
+        Producto p1 = new Producto.ProductoBuilder(1, "Aspiradora", "Electro", 800).build();
         Producto p5 = new Producto.ProductoBuilder(1, "Microondas", "Electro", 500).build();
-        Producto p6 = new Producto.ProductoBuilder(1, "Ventiladora", "Electro", 300).build();
+        Producto p3 = new Producto.ProductoBuilder(1, "Ventiladora", "Electro", 300).build();
         
         String aux1 = txtAspiradora.getText();
         String aux2 = txtAire.getText();
@@ -288,19 +288,19 @@ public class Electro extends javax.swing.JPanel {
         if(aux6.isBlank()){aux6="0";txtRefri.setText("0");}
         
         if(aux1.matches("[0-9]+") && aux2.matches("[0-9]+")&& aux3.matches("[0-9]+")&& aux4.matches("[0-9]+")&& aux5.matches("[0-9]+")&& aux6.matches("[0-9]+")){
-            int cantAspiradora = Integer.parseInt(txtAspiradora.getText());
-            int cantAire = Integer.parseInt(txtAire.getText());
-            int cantVentilador = Integer.parseInt(txtVentilador.getText());
-            int cantLicuadora = Integer.parseInt(txtLicuadora.getText());
-            int cantMicroondas = Integer.parseInt(txtMicroondas.getText());
-            int cantRefri = Integer.parseInt(txtRefri.getText());
+            int cantA = Integer.parseInt(txtAspiradora.getText());
+            int cantB = Integer.parseInt(txtAire.getText());
+            int cantC = Integer.parseInt(txtVentilador.getText());
+            int cantD = Integer.parseInt(txtLicuadora.getText());
+            int cantE= Integer.parseInt(txtMicroondas.getText());
+            int cantF = Integer.parseInt(txtRefri.getText());
             
-            for (int i = 0; i < cantAire; i++) {App.lista.add(p3);}
-            for (int i = 0; i < cantAspiradora; i++) {App.lista.add(p4);}
-            for (int i = 0; i < cantLicuadora; i++) {App.lista.add(p2);}
-            for (int i = 0; i < cantMicroondas; i++) {App.lista.add(p5);}
-            for (int i = 0; i < cantRefri; i++) {App.lista.add(p1);}
-            for (int i = 0; i < cantVentilador; i++) {App.lista.add(p6);}
+            for (int i = 0; i < cantA; i++) {App.lista.add(p1);}
+            for (int i = 0; i < cantB; i++) {App.lista.add(p2);}
+            for (int i = 0; i < cantC; i++) {App.lista.add(p3);}
+            for (int i = 0; i < cantD; i++) {App.lista.add(p4);}
+            for (int i = 0; i < cantE; i++) {App.lista.add(p5);}
+            for (int i = 0; i < cantF; i++) {App.lista.add(p6);}
             limpiar();
         }else{
             JOptionPane.showMessageDialog(null, "Ingrese un numero correcto");
