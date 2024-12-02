@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\ASUS\Documents\NetBeansProjects\TiendaApp\src\main\java\com\mycompany\tiendaapp\Vista\Bebidas.java
 C:\Users\ASUS\Documents\NetBeansProjects\TiendaApp\src\main\java\com\mycompany\tiendaapp\Vista\Electro.java
 C:\Users\ASUS\Documents\NetBeansProjects\TiendaApp\src\main\java\com\mycompany\tiendaapp\clases\FabricaKali.java
@@ -20,3 +21,16 @@ C:\Users\ASUS\Documents\NetBeansProjects\TiendaApp\src\main\java\com\mycompany\t
 C:\Users\ASUS\Documents\NetBeansProjects\TiendaApp\src\main\java\com\mycompany\tiendaapp\clases\FabricaLondon.java
 C:\Users\ASUS\Documents\NetBeansProjects\TiendaApp\src\main\java\com\mycompany\tiendaapp\clases\Producto.java
 C:\Users\ASUS\Documents\NetBeansProjects\TiendaApp\src\main\java\com\mycompany\tiendaapp\Vista\Abarrotes.java
+=======
+C:\Users\LAB-USR-SJL\Desktop\PRUEBA\TiendaApp\src\main\java\com\mycompany\tiendaapp\clases\Carrito.java
+C:\Users\LAB-USR-SJL\Desktop\PRUEBA\TiendaApp\src\main\java\com\mycompany\tiendaapp\clases\EstadoEntregado.java
+C:\Users\LAB-USR-SJL\Desktop\PRUEBA\TiendaApp\src\main\java\com\mycompany\tiendaapp\TiendaApp.java
+C:\Users\LAB-USR-SJL\Desktop\PRUEBA\TiendaApp\src\main\java\com\mycompany\tiendaapp\App.java
+C:\Users\LAB-USR-SJL\Desktop\PRUEBA\TiendaApp\src\main\java\com\mycompany\tiendaapp\clases\Producto.java
+C:\Users\LAB-USR-SJL\Desktop\PRUEBA\TiendaApp\src\main\java\com\mycompany\tiendaapp\clases\EstadoEnviado.java
+C:\Users\LAB-USR-SJL\Desktop\PRUEBA\TiendaApp\src\main\java\com\mycompany\tiendaapp\clases\EstadoPedido.java
+C:\Users\LAB-USR-SJL\Desktop\PRUEBA\TiendaApp\src\main\java\com\mycompany\tiendaapp\clases\Pedido.java
+C:\Users\LAB-USR-SJL\Desktop\PRUEBA\TiendaApp\src\main\java\com\mycompany\tiendaapp\clases\Envio.java
+C:\Users\LAB-USR-SJL\Desktop\PRUEBA\TiendaApp\src\main\java\com\mycompany\tiendaapp\clases\EstadoPendiente.java
+C:\Users\LAB-USR-SJL\Desktop\PRUEBA\TiendaApp\src\main\java\com\mycompany\tiendaapp\clases\TipoDeEnvio.java
+>>>>>>> 0e9316c3176a8e65e68b124bc03c020415682539

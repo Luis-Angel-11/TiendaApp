@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 com\mycompany\tiendaapp\Vista\Electro$1.class
 com\mycompany\tiendaapp\Login$3.class
 com\mycompany\tiendaapp\App$1.class
@@ -61,3 +62,18 @@ com\mycompany\tiendaapp\Login$2.class
 com\mycompany\tiendaapp\Vista\Electro.class
 com\mycompany\tiendaapp\Vista\Abarrotes$3.class
 com\mycompany\tiendaapp\Vista\Bebidas$2.class
+=======
+com\mycompany\tiendaapp\clases\Producto.class
+com\mycompany\tiendaapp\App.class
+com\mycompany\tiendaapp\clases\EstadoEnviado.class
+com\mycompany\tiendaapp\TiendaApp.class
+com\mycompany\tiendaapp\clases\TipoDeEnvio.class
+com\mycompany\tiendaapp\clases\EstadoPendiente.class
+com\mycompany\tiendaapp\clases\Producto$ProductoBuilder.class
+com\mycompany\tiendaapp\App$1.class
+com\mycompany\tiendaapp\clases\Carrito.class
+com\mycompany\tiendaapp\clases\Pedido.class
+com\mycompany\tiendaapp\clases\Envio.class
+com\mycompany\tiendaapp\clases\EstadoEntregado.class
+com\mycompany\tiendaapp\clases\EstadoPedido.class
+>>>>>>> 0e9316c3176a8e65e68b124bc03c020415682539
