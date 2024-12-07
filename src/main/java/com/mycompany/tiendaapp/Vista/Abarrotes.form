@@ -40,47 +40,47 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="ventilador" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="cereal" min="-2" pref="110" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
-                                      <Component id="txtLicuadora" min="-2" pref="93" max="-2" attributes="0"/>
+                                      <Component id="txtTallarin" min="-2" pref="93" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
-                                      <Component id="txtVentilador" min="-2" pref="86" max="-2" attributes="0"/>
+                                      <Component id="txtCereal" min="-2" pref="86" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace min="78" pref="78" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="microondas" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="nesquik" min="-2" pref="110" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                                      <Component id="txtMicroondas" min="-2" pref="89" max="-2" attributes="0"/>
+                                      <Component id="txtNesquik" min="-2" pref="89" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                      <Component id="txtRefri" min="-2" pref="83" max="-2" attributes="0"/>
+                                      <Component id="txtAtun" min="-2" pref="83" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="licuadora" min="-2" pref="110" max="-2" attributes="0"/>
+                              <Component id="tallarin" min="-2" pref="110" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
-                              <Component id="refri" min="-2" pref="110" max="-2" attributes="0"/>
+                              <Component id="atun" min="-2" pref="110" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <EmptySpace min="88" pref="88" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="aspiradora" min="-2" pref="110" max="-2" attributes="0"/>
-                                  <Component id="aire" min="-2" pref="110" max="-2" attributes="0"/>
-                                  <Component id="txtAspiradora" alignment="1" min="-2" pref="97" max="-2" attributes="0"/>
+                                  <Component id="nutella" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="tallarin2" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="txtNutella" alignment="1" min="-2" pref="97" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
-                              <Component id="txtAire" min="-2" pref="99" max="-2" attributes="0"/>
+                              <Component id="txtTallarin2" min="-2" pref="99" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
@@ -94,27 +94,27 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="licuadora" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
-                  <Component id="refri" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
-                  <Component id="aire" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="tallarin" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="atun" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="tallarin2" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtLicuadora" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtRefri" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtAire" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTallarin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAtun" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTallarin2" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="microondas" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
-                  <Component id="ventilador" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
-                  <Component id="aspiradora" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="nesquik" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="cereal" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Component id="nutella" alignment="3" min="-2" pref="100" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtVentilador" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtMicroondas" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtAspiradora" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCereal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNesquik" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNutella" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -129,13 +129,13 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="licuadora">
+    <Component class="javax.swing.JLabel" name="tallarin">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="licua"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="refri">
+    <Component class="javax.swing.JLabel" name="atun">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="refri"/>
@@ -201,41 +201,41 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JLabel" name="aire">
+    <Component class="javax.swing.JLabel" name="tallarin2">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="aire"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtLicuadora">
+    <Component class="javax.swing.JTextField" name="txtTallarin">
     </Component>
-    <Component class="javax.swing.JLabel" name="ventilador">
+    <Component class="javax.swing.JLabel" name="cereal">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="ventila"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="microondas">
+    <Component class="javax.swing.JLabel" name="nesquik">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Microo"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="aspiradora">
+    <Component class="javax.swing.JLabel" name="nutella">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Aspirad"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtAire">
+    <Component class="javax.swing.JTextField" name="txtTallarin2">
     </Component>
-    <Component class="javax.swing.JTextField" name="txtRefri">
+    <Component class="javax.swing.JTextField" name="txtAtun">
     </Component>
-    <Component class="javax.swing.JTextField" name="txtMicroondas">
+    <Component class="javax.swing.JTextField" name="txtNesquik">
     </Component>
-    <Component class="javax.swing.JTextField" name="txtAspiradora">
+    <Component class="javax.swing.JTextField" name="txtNutella">
     </Component>
-    <Component class="javax.swing.JTextField" name="txtVentilador">
+    <Component class="javax.swing.JTextField" name="txtCereal">
     </Component>
     <Component class="javax.swing.JButton" name="btnAgregar">
       <Properties>

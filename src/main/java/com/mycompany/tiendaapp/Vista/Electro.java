@@ -266,12 +266,12 @@ public class Electro extends javax.swing.JPanel {
     }//GEN-LAST:event_btnLimpiarActionPerformed
 
     private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarActionPerformed
-        Producto p6 = new Producto.ProductoBuilder(1, "Refrigeradora", "Electro", 1200).build();
-        Producto p4 = new Producto.ProductoBuilder(1, "Licuadora", "Electro", 350).build();
-        Producto p2 = new Producto.ProductoBuilder(1, "Aire Acondicionado", "Electro", 1500).build();
         Producto p1 = new Producto.ProductoBuilder(1, "Aspiradora", "Electro", 800).build();
-        Producto p5 = new Producto.ProductoBuilder(1, "Microondas", "Electro", 500).build();
+        Producto p2 = new Producto.ProductoBuilder(1, "Aire Acondicionado", "Electro", 1500).build();
         Producto p3 = new Producto.ProductoBuilder(1, "Ventiladora", "Electro", 300).build();
+        Producto p4 = new Producto.ProductoBuilder(1, "Licuadora", "Electro", 350).build();
+        Producto p5 = new Producto.ProductoBuilder(1, "Microondas", "Electro", 500).build();
+        Producto p6 = new Producto.ProductoBuilder(1, "Refrigeradora", "Electro", 1200).build();
         
         String aux1 = txtAspiradora.getText();
         String aux2 = txtAire.getText();

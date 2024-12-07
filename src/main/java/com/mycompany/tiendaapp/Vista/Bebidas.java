@@ -52,15 +52,15 @@ public class Bebidas extends javax.swing.JPanel {
         jButton2 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         coca = new javax.swing.JLabel();
-        txtLicuadora = new javax.swing.JTextField();
+        txtBlue = new javax.swing.JTextField();
         fanta = new javax.swing.JLabel();
         sporade = new javax.swing.JLabel();
         vino = new javax.swing.JLabel();
-        txtAire = new javax.swing.JTextField();
-        txtRefri = new javax.swing.JTextField();
-        txtMicroondas = new javax.swing.JTextField();
-        txtAspiradora = new javax.swing.JTextField();
-        txtVentilador = new javax.swing.JTextField();
+        txtCocaCola = new javax.swing.JTextField();
+        txtAgua = new javax.swing.JTextField();
+        txtSporade = new javax.swing.JTextField();
+        txtVino = new javax.swing.JTextField();
+        txtFanta = new javax.swing.JTextField();
         btnAgregar = new javax.swing.JButton();
         btnLimpiar = new javax.swing.JButton();
         btnCarrito = new javax.swing.JButton();
@@ -172,19 +172,19 @@ public class Bebidas extends javax.swing.JPanel {
                                     .addComponent(fanta, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(9, 9, 9)
-                                        .addComponent(txtLicuadora, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(txtBlue, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(13, 13, 13)
-                                        .addComponent(txtVentilador, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addComponent(txtFanta, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGap(78, 78, 78)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(sporade, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(11, 11, 11)
-                                        .addComponent(txtMicroondas, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(txtSporade, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(12, 12, 12)
-                                        .addComponent(txtRefri, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(txtAgua, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(Blue, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(78, 78, 78)
@@ -195,10 +195,10 @@ public class Bebidas extends javax.swing.JPanel {
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(vino, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(coca, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txtAspiradora, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(txtVino, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addGap(99, 99, 99)
-                                .addComponent(txtAire, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(txtCocaCola, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(38, 38, 38))))
         );
         layout.setVerticalGroup(
@@ -211,9 +211,9 @@ public class Bebidas extends javax.swing.JPanel {
                     .addComponent(coca, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(42, 42, 42)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtLicuadora, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtRefri, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtAire, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtBlue, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtAgua, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtCocaCola, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(sporade, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -221,9 +221,9 @@ public class Bebidas extends javax.swing.JPanel {
                     .addComponent(vino, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(40, 40, 40)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtVentilador, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtMicroondas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtAspiradora, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtFanta, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtSporade, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtVino, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(33, 33, 33)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnAgregar)
@@ -266,41 +266,41 @@ public class Bebidas extends javax.swing.JPanel {
     }//GEN-LAST:event_btnLimpiarActionPerformed
 
     private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarActionPerformed
-        Producto p1 = new Producto.ProductoBuilder(1, "Refrigeradora", "Electro", 1200).build();
-        Producto p2 = new Producto.ProductoBuilder(1, "Licuadora", "Electro", 350).build();
-        Producto p3 = new Producto.ProductoBuilder(1, "Aire Acondicionado", "Electro", 1500).build();
-        Producto p4 = new Producto.ProductoBuilder(1, "Aspiradora", "Electro", 800).build();
-        Producto p5 = new Producto.ProductoBuilder(1, "Microondas", "Electro", 500).build();
-        Producto p6 = new Producto.ProductoBuilder(1, "Ventiladora", "Electro", 300).build();
+        Producto p1 = new Producto.ProductoBuilder(1, "Vino Rose", "Bebidas", 40).build();
+        Producto p2 = new Producto.ProductoBuilder(1, "Coca Cola", "Bebidas", 2.5).build();
+        Producto p3 = new Producto.ProductoBuilder(1, "Fanta", "Bebidas", 2).build();
+        Producto p4 = new Producto.ProductoBuilder(1, "Blue Label", "Bebidas", 900).build();
+        Producto p5 = new Producto.ProductoBuilder(1, "Sporade", "Bebidas", 2).build();
+        Producto p6 = new Producto.ProductoBuilder(1, "Agua", "Bebidas", 1.5).build();
         
-        String aux1 = txtAspiradora.getText();
-        String aux2 = txtAire.getText();
-        String aux3 = txtVentilador.getText();
-        String aux4 = txtLicuadora.getText();
-        String aux5 = txtMicroondas.getText();
-        String aux6 = txtRefri.getText();
+        String aux1 = txtVino.getText();
+        String aux2 = txtCocaCola.getText();
+        String aux3 = txtFanta.getText();
+        String aux4 = txtBlue.getText();
+        String aux5 = txtSporade.getText();
+        String aux6 = txtAgua.getText();
         
-        if(aux1.isBlank()){aux1="0";txtAspiradora.setText("0");}
-        if(aux2.isBlank()){aux2="0";txtAire.setText("0");}
-        if(aux3.isBlank()){aux3="0";txtVentilador.setText("0");}
-        if(aux4.isBlank()){aux4="0";txtLicuadora.setText("0");}
-        if(aux5.isBlank()){aux5="0";txtMicroondas.setText("0");}
-        if(aux6.isBlank()){aux6="0";txtRefri.setText("0");}
+        if(aux1.isBlank()){aux1="0";txtVino.setText("0");}
+        if(aux2.isBlank()){aux2="0";txtCocaCola.setText("0");}
+        if(aux3.isBlank()){aux3="0";txtFanta.setText("0");}
+        if(aux4.isBlank()){aux4="0";txtBlue.setText("0");}
+        if(aux5.isBlank()){aux5="0";txtSporade.setText("0");}
+        if(aux6.isBlank()){aux6="0";txtAgua.setText("0");}
         
         if(aux1.matches("[0-9]+") && aux2.matches("[0-9]+")&& aux3.matches("[0-9]+")&& aux4.matches("[0-9]+")&& aux5.matches("[0-9]+")&& aux6.matches("[0-9]+")){
-            int cantA = Integer.parseInt(txtAspiradora.getText());
-            int cantB = Integer.parseInt(txtAire.getText());
-            int cantC = Integer.parseInt(txtVentilador.getText());
-            int cantD = Integer.parseInt(txtLicuadora.getText());
-            int cantE = Integer.parseInt(txtMicroondas.getText());
-            int cantF = Integer.parseInt(txtRefri.getText());
+            int cantA = Integer.parseInt(txtVino.getText());
+            int cantB = Integer.parseInt(txtCocaCola.getText());
+            int cantC = Integer.parseInt(txtFanta.getText());
+            int cantD = Integer.parseInt(txtBlue.getText());
+            int cantE = Integer.parseInt(txtSporade.getText());
+            int cantF = Integer.parseInt(txtAgua.getText());
             
-            for (int i = 0; i < cantB; i++) {App.lista.add(p3);}
-            for (int i = 0; i < cantA; i++) {App.lista.add(p4);}
-            for (int i = 0; i < cantD; i++) {App.lista.add(p2);}
+            for (int i = 0; i < cantA; i++) {App.lista.add(p1);}
+            for (int i = 0; i < cantB; i++) {App.lista.add(p2);}
+            for (int i = 0; i < cantC; i++) {App.lista.add(p3);}
+            for (int i = 0; i < cantD; i++) {App.lista.add(p4);}
             for (int i = 0; i < cantE; i++) {App.lista.add(p5);}
-            for (int i = 0; i < cantF; i++) {App.lista.add(p1);}
-            for (int i = 0; i < cantC; i++) {App.lista.add(p6);}
+            for (int i = 0; i < cantF; i++) {App.lista.add(p6);}
             limpiar();
         }else{
             JOptionPane.showMessageDialog(null, "Ingrese un numero correcto");
@@ -316,12 +316,12 @@ public class Bebidas extends javax.swing.JPanel {
         aplicativo.setLocationRelativeTo(null);
     }//GEN-LAST:event_btnCarritoActionPerformed
     void limpiar(){
-        txtAspiradora.setText("");
-        txtVentilador.setText("");
-        txtMicroondas.setText("");
-        txtLicuadora.setText("");
-        txtRefri.setText("");
-        txtAire.setText("");
+        txtVino.setText("");
+        txtFanta.setText("");
+        txtSporade.setText("");
+        txtBlue.setText("");
+        txtAgua.setText("");
+        txtCocaCola.setText("");
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -337,12 +337,12 @@ public class Bebidas extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel sporade;
-    private javax.swing.JTextField txtAire;
-    private javax.swing.JTextField txtAspiradora;
-    private javax.swing.JTextField txtLicuadora;
-    private javax.swing.JTextField txtMicroondas;
-    private javax.swing.JTextField txtRefri;
-    private javax.swing.JTextField txtVentilador;
+    private javax.swing.JTextField txtAgua;
+    private javax.swing.JTextField txtBlue;
+    private javax.swing.JTextField txtCocaCola;
+    private javax.swing.JTextField txtFanta;
+    private javax.swing.JTextField txtSporade;
+    private javax.swing.JTextField txtVino;
     private javax.swing.JLabel vino;
     // End of variables declaration//GEN-END:variables
 }

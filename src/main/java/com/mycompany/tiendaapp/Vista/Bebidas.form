@@ -43,11 +43,11 @@
                                   <Component id="fanta" min="-2" pref="110" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
-                                      <Component id="txtLicuadora" min="-2" pref="93" max="-2" attributes="0"/>
+                                      <Component id="txtBlue" min="-2" pref="93" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
-                                      <Component id="txtVentilador" min="-2" pref="86" max="-2" attributes="0"/>
+                                      <Component id="txtFanta" min="-2" pref="86" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace min="78" pref="78" max="-2" attributes="0"/>
@@ -55,11 +55,11 @@
                                   <Component id="sporade" min="-2" pref="110" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                                      <Component id="txtMicroondas" min="-2" pref="89" max="-2" attributes="0"/>
+                                      <Component id="txtSporade" min="-2" pref="89" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                      <Component id="txtRefri" min="-2" pref="83" max="-2" attributes="0"/>
+                                      <Component id="txtAgua" min="-2" pref="83" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -75,12 +75,12 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="vino" min="-2" pref="110" max="-2" attributes="0"/>
                                   <Component id="coca" min="-2" pref="110" max="-2" attributes="0"/>
-                                  <Component id="txtAspiradora" alignment="1" min="-2" pref="97" max="-2" attributes="0"/>
+                                  <Component id="txtVino" alignment="1" min="-2" pref="97" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
-                              <Component id="txtAire" min="-2" pref="99" max="-2" attributes="0"/>
+                              <Component id="txtCocaCola" min="-2" pref="99" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
@@ -100,9 +100,9 @@
               </Group>
               <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtLicuadora" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtRefri" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtAire" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtBlue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAgua" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtCocaCola" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -112,9 +112,9 @@
               </Group>
               <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtVentilador" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtMicroondas" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtAspiradora" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtFanta" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtSporade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtVino" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -207,7 +207,7 @@
         <Property name="text" type="java.lang.String" value="aire"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtLicuadora">
+    <Component class="javax.swing.JTextField" name="txtBlue">
     </Component>
     <Component class="javax.swing.JLabel" name="fanta">
       <Properties>
@@ -227,15 +227,15 @@
         <Property name="text" type="java.lang.String" value="Aspirad"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtAire">
+    <Component class="javax.swing.JTextField" name="txtCocaCola">
     </Component>
-    <Component class="javax.swing.JTextField" name="txtRefri">
+    <Component class="javax.swing.JTextField" name="txtAgua">
     </Component>
-    <Component class="javax.swing.JTextField" name="txtMicroondas">
+    <Component class="javax.swing.JTextField" name="txtSporade">
     </Component>
-    <Component class="javax.swing.JTextField" name="txtAspiradora">
+    <Component class="javax.swing.JTextField" name="txtVino">
     </Component>
-    <Component class="javax.swing.JTextField" name="txtVentilador">
+    <Component class="javax.swing.JTextField" name="txtFanta">
     </Component>
     <Component class="javax.swing.JButton" name="btnAgregar">
       <Properties>

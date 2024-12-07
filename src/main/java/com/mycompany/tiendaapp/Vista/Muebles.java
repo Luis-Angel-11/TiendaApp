@@ -288,21 +288,19 @@ public class Muebles extends javax.swing.JPanel {
         if(aux6.isBlank()){aux6="0";txtSofaL.setText("0");}
         
         if(aux1.matches("[0-9]+") && aux2.matches("[0-9]+")&& aux3.matches("[0-9]+")&& aux4.matches("[0-9]+")&& aux5.matches("[0-9]+")&& aux6.matches("[0-9]+")){
-            int cantMesa = Integer.parseInt(txtMesaK.getText());
-            int cantMesa1 = Integer.parseInt(txtMesaL.getText());
-            int cantSilla = Integer.parseInt(txtSillaK.getText());
-            int cantSilla1 = Integer.parseInt(txtSillaL.getText());
-            int cantSofa = Integer.parseInt(txtSofaK.getText());
-            int cantSofa1 = Integer.parseInt(txtSofaL.getText());
-            //App.carritoModel.addElement(mesa);
-            //App.carritoModel.addElement(silla);
-            //App.carritoModel.addElement(sofa);
-            for (int i = 0; i < cantSilla1; i++) {App.lista.add(silla);}
-            for (int i = 0; i < cantSofa1; i++) {App.lista.add(sofa);}
-            for (int i = 0; i < cantMesa1; i++) {App.lista.add(mesa);}
-            for (int i = 0; i < cantSilla; i++) {App.lista.add(silla2);}
-            for (int i = 0; i < cantSofa; i++) {App.lista.add(sofa2);}
-            for (int i = 0; i < cantMesa; i++) {App.lista.add(mesa2);}
+            int A = Integer.parseInt(txtMesaK.getText());
+            int B = Integer.parseInt(txtMesaL.getText());
+            int C = Integer.parseInt(txtSillaK.getText());
+            int D = Integer.parseInt(txtSillaL.getText());
+            int E = Integer.parseInt(txtSofaK.getText());
+            int F = Integer.parseInt(txtSofaL.getText());
+            
+            for (int i = 0; i < A; i++) {App.lista.add(mesa2);}
+            for (int i = 0; i < B; i++) {App.lista.add(mesa);}
+            for (int i = 0; i < C; i++) {App.lista.add(silla2);}
+            for (int i = 0; i < D; i++) {App.lista.add(silla);}
+            for (int i = 0; i < E; i++) {App.lista.add(sofa2);}
+            for (int i = 0; i < F; i++) {App.lista.add(sofa);}
             limpiar();
         }else{
             JOptionPane.showMessageDialog(null, "Ingrese un numero correcto");
