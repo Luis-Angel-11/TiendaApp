@@ -48,9 +48,9 @@ public class Muebles extends javax.swing.JPanel {
         Silla1 = new javax.swing.JLabel();
         Sofa1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         Mesa1 = new javax.swing.JLabel();
         txtSillaL = new javax.swing.JTextField();
         Silla2 = new javax.swing.JLabel();
@@ -69,18 +69,19 @@ public class Muebles extends javax.swing.JPanel {
         setName("Principal"); // NOI18N
 
         Silla1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Silla1.setText("Silla");
 
         Sofa1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Sofa1.setText("Sofa");
 
         jPanel1.setBackground(new java.awt.Color(21, 145, 155));
 
-        jButton1.setText("London");
-
-        jButton2.setText("Kali");
-
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel3.setText("Juego de Muebles");
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel1.setText("London");
+
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel2.setText("Kali");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -89,13 +90,13 @@ public class Muebles extends javax.swing.JPanel {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(37, 37, 37)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton2)
-                            .addComponent(jButton1)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(26, 26, 26)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(40, 40, 40)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 76, Short.MAX_VALUE))))
                 .addContainerGap(35, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -103,24 +104,20 @@ public class Muebles extends javax.swing.JPanel {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(41, 41, 41)
                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(94, 94, 94)
-                .addComponent(jButton1)
-                .addGap(41, 41, 41)
-                .addComponent(jButton2)
+                .addGap(52, 52, 52)
+                .addComponent(jLabel1)
+                .addGap(56, 56, 56)
+                .addComponent(jLabel2)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         Mesa1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Mesa1.setText("Mesa");
 
         Silla2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Silla2.setText("Silla2");
 
         Sofa2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Sofa2.setText("Sofa2");
 
         Mesa2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Mesa2.setText("Mesa2");
 
         btnAgregar.setBackground(new java.awt.Color(9, 209, 199));
         btnAgregar.setText("agregar");
@@ -336,8 +333,8 @@ public class Muebles extends javax.swing.JPanel {
     private javax.swing.JButton btnAgregar;
     private javax.swing.JButton btnCarrito;
     private javax.swing.JButton btnLimpiar;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField txtMesaK;

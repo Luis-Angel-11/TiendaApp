@@ -2,48 +2,41 @@
 package com.mycompany.tiendaapp.BaseDatos;
 
 
+import java.lang.reflect.InvocationTargetException;
 import java.sql.*;
 import java.sql.DriverManager;
 public class Conexion {
     
      //aplicando patron Singleton
-    private static Conexion conexion;
-    public String driver;
-    public String url;
-    public String login;
-    public String clave;
+    private static Conexion instancia = null;
+    
+    public String driver="com.mysql.cj.jdbc.Driver";
+    public String url="jdbc:mysql://localhost:3306/TiendaApp";
+    public String user="root";
+    public String password="root";
 
     //constructor
     private Conexion() {
-        this.driver = "com.mysql.cj.jdbc.Driver";
-        this.url = "jdbc:mysql://localhost:3306/db_tienda?serverTimezone=UTC";
-        this.login = "root";
-        this.clave = "";
+        
     }
-
-    public static Conexion getConexion() {
-        if (conexion == null) {
-            conexion = new Conexion();
+    public static Conexion getInstance() {
+        if (instancia == null) {
+            instancia = new Conexion();
         }
-        return conexion;
-
+        return instancia;
     }
 
-    public Connection conectar() {
-        Connection cn = null;
+    public Connection getConexion() throws SQLException {
+        Connection con = null;
         try {
-            Class.forName(driver);
-            cn = DriverManager.getConnection(url, login, clave);
-            System.out.println("Conexion correcta");
-        } catch (ClassNotFoundException e) {
-            
-            e.printStackTrace();
-            System.out.println("no conecta");
-        } catch (SQLException e1) {
-            e1.printStackTrace();
-            System.out.println("No conecta 1");
+            Class.forName(driver)
+                    .getDeclaredConstructor().newInstance();
+            con = DriverManager.getConnection(url, user, password);
+        } catch (ClassNotFoundException | IllegalAccessException | IllegalArgumentException | InstantiationException | NoSuchMethodException | SecurityException | InvocationTargetException | SQLException e) {
+            throw new SQLException(e.getMessage());
         }
-        return cn;
-    }
 
-}
+        return con;
+    }
+    
+    }

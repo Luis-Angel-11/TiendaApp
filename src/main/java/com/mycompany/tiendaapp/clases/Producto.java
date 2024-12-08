@@ -6,6 +6,7 @@ package com.mycompany.tiendaapp.clases;
 
 
 public class Producto {
+    
     private int id;
     private String nombre;
     private String categoria;
