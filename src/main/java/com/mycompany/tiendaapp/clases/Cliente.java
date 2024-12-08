@@ -6,7 +6,11 @@ package com.mycompany.tiendaapp.clases;
 
 /**
  *
+<<<<<<< HEAD
  * @author Dell
+=======
+ * @author ASUS
+>>>>>>> ee475bc3072747ea158dd2256caf2dfccbbac156
  */
 public class Cliente {
     

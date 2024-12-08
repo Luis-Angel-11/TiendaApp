@@ -45,22 +45,22 @@ public class Abarrotes extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        licuadora = new javax.swing.JLabel();
-        refri = new javax.swing.JLabel();
+        tallarin = new javax.swing.JLabel();
+        atun = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
-        aire = new javax.swing.JLabel();
-        txtLicuadora = new javax.swing.JTextField();
-        ventilador = new javax.swing.JLabel();
-        microondas = new javax.swing.JLabel();
-        aspiradora = new javax.swing.JLabel();
-        txtAire = new javax.swing.JTextField();
-        txtRefri = new javax.swing.JTextField();
-        txtMicroondas = new javax.swing.JTextField();
-        txtAspiradora = new javax.swing.JTextField();
-        txtVentilador = new javax.swing.JTextField();
+        tallarin2 = new javax.swing.JLabel();
+        txtTallarin = new javax.swing.JTextField();
+        cereal = new javax.swing.JLabel();
+        nesquik = new javax.swing.JLabel();
+        nutella = new javax.swing.JLabel();
+        txtTallarin2 = new javax.swing.JTextField();
+        txtAtun = new javax.swing.JTextField();
+        txtNesquik = new javax.swing.JTextField();
+        txtNutella = new javax.swing.JTextField();
+        txtCereal = new javax.swing.JTextField();
         btnAgregar = new javax.swing.JButton();
         btnLimpiar = new javax.swing.JButton();
         btnCarrito = new javax.swing.JButton();
@@ -68,11 +68,11 @@ public class Abarrotes extends javax.swing.JPanel {
         setBackground(new java.awt.Color(255, 255, 255));
         setName("Principal"); // NOI18N
 
-        licuadora.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        licuadora.setText("licua");
+        tallarin.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        tallarin.setText("licua");
 
-        refri.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        refri.setText("refri");
+        atun.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        atun.setText("refri");
 
         jPanel1.setBackground(new java.awt.Color(21, 145, 155));
 
@@ -110,17 +110,17 @@ public class Abarrotes extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        aire.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        aire.setText("aire");
+        tallarin2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        tallarin2.setText("aire");
 
-        ventilador.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        ventilador.setText("ventila");
+        cereal.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        cereal.setText("ventila");
 
-        microondas.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        microondas.setText("Microo");
+        nesquik.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        nesquik.setText("Microo");
 
-        aspiradora.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        aspiradora.setText("Aspirad");
+        nutella.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        nutella.setText("Aspirad");
 
         btnAgregar.setBackground(new java.awt.Color(9, 209, 199));
         btnAgregar.setText("agregar");
@@ -169,36 +169,36 @@ public class Abarrotes extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(ventilador, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(cereal, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(9, 9, 9)
-                                        .addComponent(txtLicuadora, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(txtTallarin, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(13, 13, 13)
-                                        .addComponent(txtVentilador, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addComponent(txtCereal, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGap(78, 78, 78)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(microondas, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(nesquik, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(11, 11, 11)
-                                        .addComponent(txtMicroondas, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(txtNesquik, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(12, 12, 12)
-                                        .addComponent(txtRefri, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addComponent(txtAtun, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(licuadora, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(tallarin, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(78, 78, 78)
-                                .addComponent(refri, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(atun, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(88, 88, 88)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(aspiradora, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(aire, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txtAspiradora, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(nutella, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(tallarin2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txtNutella, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addGap(99, 99, 99)
-                                .addComponent(txtAire, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(txtTallarin2, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(38, 38, 38))))
         );
         layout.setVerticalGroup(
@@ -206,24 +206,24 @@ public class Abarrotes extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(19, 19, 19)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(licuadora, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(refri, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(aire, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(tallarin, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(atun, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(tallarin2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(42, 42, 42)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtLicuadora, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtRefri, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtAire, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtTallarin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtAtun, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtTallarin2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(microondas, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ventilador, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(aspiradora, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(nesquik, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cereal, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(nutella, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(40, 40, 40)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtVentilador, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtMicroondas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtAspiradora, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtCereal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtNesquik, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtNutella, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(33, 33, 33)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnAgregar)
@@ -240,12 +240,12 @@ public class Abarrotes extends javax.swing.JPanel {
             @Override
             public void componentResized(ComponentEvent e) {
                 
-                setImageLabel(licuadora, "src/main/resources/Imagenes1/tallarin.jpg");
-                setImageLabel(refri, "src/main/resources/Imagenes1/atun.jpg");
-                setImageLabel(aire, "src/main/resources/Imagenes1/tallarin2.jpg");
-                setImageLabel(ventilador, "src/main/resources/Imagenes1/cereal.jpg");
-                setImageLabel(microondas, "src/main/resources/Imagenes1/nesquik.jpg");
-                setImageLabel(aspiradora, "src/main/resources/Imagenes1/nutella.jpg");
+                setImageLabel(tallarin, "src/main/resources/Imagenes1/tallarin.jpg");
+                setImageLabel(atun, "src/main/resources/Imagenes1/atun.jpg");
+                setImageLabel(tallarin2, "src/main/resources/Imagenes1/tallarin2.jpg");
+                setImageLabel(cereal, "src/main/resources/Imagenes1/cereal.jpg");
+                setImageLabel(nesquik, "src/main/resources/Imagenes1/nesquik.jpg");
+                setImageLabel(nutella, "src/main/resources/Imagenes1/nutella.jpg");
             }
         });
     }
@@ -266,41 +266,41 @@ public class Abarrotes extends javax.swing.JPanel {
     }//GEN-LAST:event_btnLimpiarActionPerformed
 
     private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarActionPerformed
-        Producto p1 = new Producto.ProductoBuilder(1, "Refrigeradora", "Electro", 1200).build();
-        Producto p2 = new Producto.ProductoBuilder(1, "Licuadora", "Electro", 350).build();
-        Producto p3 = new Producto.ProductoBuilder(1, "Aire Acondicionado", "Electro", 1500).build();
-        Producto p4 = new Producto.ProductoBuilder(1, "Aspiradora", "Electro", 800).build();
-        Producto p5 = new Producto.ProductoBuilder(1, "Microondas", "Electro", 500).build();
-        Producto p6 = new Producto.ProductoBuilder(1, "Ventiladora", "Electro", 300).build();
+        Producto p1 = new Producto.ProductoBuilder(1, "Tallarin Molitalia", "Abarrotes", 3.5).build();
+        Producto p2 = new Producto.ProductoBuilder(1, "Atun", "Abarrotes", 4).build();
+        Producto p3 = new Producto.ProductoBuilder(1, "Tallarin San Jorge", "Abarrotes", 2.5).build();
+        Producto p4 = new Producto.ProductoBuilder(1, "Cereal", "Abarrotes", 5).build();
+        Producto p5 = new Producto.ProductoBuilder(1, "Nesquik", "Abarrotes", 2).build();
+        Producto p6 = new Producto.ProductoBuilder(1, "Nutella", "Abarrotes", 6).build();
         
-        String aux1 = txtAspiradora.getText();
-        String aux2 = txtAire.getText();
-        String aux3 = txtVentilador.getText();
-        String aux4 = txtLicuadora.getText();
-        String aux5 = txtMicroondas.getText();
-        String aux6 = txtRefri.getText();
+        String aux1 = txtTallarin.getText();
+        String aux2 = txtAtun.getText();
+        String aux3 = txtTallarin2.getText();
+        String aux4 = txtCereal.getText();
+        String aux5 = txtNesquik.getText();
+        String aux6 = txtNutella.getText();
         
-        if(aux1.isBlank()){aux1="0";txtAspiradora.setText("0");}
-        if(aux2.isBlank()){aux2="0";txtAire.setText("0");}
-        if(aux3.isBlank()){aux3="0";txtVentilador.setText("0");}
-        if(aux4.isBlank()){aux4="0";txtLicuadora.setText("0");}
-        if(aux5.isBlank()){aux5="0";txtMicroondas.setText("0");}
-        if(aux6.isBlank()){aux6="0";txtRefri.setText("0");}
+        if(aux1.isBlank()){aux1="0";txtTallarin.setText("0");}
+        if(aux2.isBlank()){aux2="0";txtAtun.setText("0");}
+        if(aux3.isBlank()){aux3="0";txtTallarin2.setText("0");}
+        if(aux4.isBlank()){aux4="0";txtCereal.setText("0");}
+        if(aux5.isBlank()){aux5="0";txtNesquik.setText("0");}
+        if(aux6.isBlank()){aux6="0";txtNutella.setText("0");}
         
         if(aux1.matches("[0-9]+") && aux2.matches("[0-9]+")&& aux3.matches("[0-9]+")&& aux4.matches("[0-9]+")&& aux5.matches("[0-9]+")&& aux6.matches("[0-9]+")){
-            int cantA = Integer.parseInt(txtAspiradora.getText());
-            int cantB = Integer.parseInt(txtAire.getText());
-            int cantC = Integer.parseInt(txtVentilador.getText());
-            int cantD = Integer.parseInt(txtLicuadora.getText());
-            int cantE = Integer.parseInt(txtMicroondas.getText());
-            int cantF = Integer.parseInt(txtRefri.getText());
+            int cantA = Integer.parseInt(txtTallarin.getText());
+            int cantB = Integer.parseInt(txtAtun.getText());
+            int cantC = Integer.parseInt(txtTallarin2.getText());
+            int cantD = Integer.parseInt(txtCereal.getText());
+            int cantE = Integer.parseInt(txtNesquik.getText());
+            int cantF = Integer.parseInt(txtNutella.getText());
             
-            for (int i = 0; i < cantB; i++) {App.lista.add(p3);}
-            for (int i = 0; i < cantA; i++) {App.lista.add(p4);}
-            for (int i = 0; i < cantD; i++) {App.lista.add(p2);}
+            for (int i = 0; i < cantA; i++) {App.lista.add(p1);}
+            for (int i = 0; i < cantB; i++) {App.lista.add(p2);}
+            for (int i = 0; i < cantC; i++) {App.lista.add(p3);}
+            for (int i = 0; i < cantD; i++) {App.lista.add(p4);}
             for (int i = 0; i < cantE; i++) {App.lista.add(p5);}
-            for (int i = 0; i < cantF; i++) {App.lista.add(p1);}
-            for (int i = 0; i < cantC; i++) {App.lista.add(p6);}
+            for (int i = 0; i < cantF; i++) {App.lista.add(p6);}
             limpiar();
         }else{
             JOptionPane.showMessageDialog(null, "Ingrese un numero correcto");
@@ -316,33 +316,33 @@ public class Abarrotes extends javax.swing.JPanel {
         aplicativo.setLocationRelativeTo(null);
     }//GEN-LAST:event_btnCarritoActionPerformed
     void limpiar(){
-        txtAspiradora.setText("");
-        txtVentilador.setText("");
-        txtMicroondas.setText("");
-        txtLicuadora.setText("");
-        txtRefri.setText("");
-        txtAire.setText("");
+        txtNutella.setText("");
+        txtCereal.setText("");
+        txtNesquik.setText("");
+        txtTallarin.setText("");
+        txtAtun.setText("");
+        txtTallarin2.setText("");
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel aire;
-    private javax.swing.JLabel aspiradora;
+    private javax.swing.JLabel atun;
     private javax.swing.JButton btnAgregar;
     private javax.swing.JButton btnCarrito;
     private javax.swing.JButton btnLimpiar;
+    private javax.swing.JLabel cereal;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JLabel licuadora;
-    private javax.swing.JLabel microondas;
-    private javax.swing.JLabel refri;
-    private javax.swing.JTextField txtAire;
-    private javax.swing.JTextField txtAspiradora;
-    private javax.swing.JTextField txtLicuadora;
-    private javax.swing.JTextField txtMicroondas;
-    private javax.swing.JTextField txtRefri;
-    private javax.swing.JTextField txtVentilador;
-    private javax.swing.JLabel ventilador;
+    private javax.swing.JLabel nesquik;
+    private javax.swing.JLabel nutella;
+    private javax.swing.JLabel tallarin;
+    private javax.swing.JLabel tallarin2;
+    private javax.swing.JTextField txtAtun;
+    private javax.swing.JTextField txtCereal;
+    private javax.swing.JTextField txtNesquik;
+    private javax.swing.JTextField txtNutella;
+    private javax.swing.JTextField txtTallarin;
+    private javax.swing.JTextField txtTallarin2;
     // End of variables declaration//GEN-END:variables
 }

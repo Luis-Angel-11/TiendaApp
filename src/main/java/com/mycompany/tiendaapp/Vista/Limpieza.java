@@ -264,12 +264,12 @@ public class Limpieza extends javax.swing.JPanel {
     }//GEN-LAST:event_btnLimpiarActionPerformed
 
     private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarActionPerformed
-        Producto p1 = new Producto.ProductoBuilder(1, "Refrigeradora", "Electro", 1200).build();
-        Producto p2 = new Producto.ProductoBuilder(1, "Licuadora", "Electro", 350).build();
-        Producto p3 = new Producto.ProductoBuilder(1, "Aire Acondicionado", "Electro", 1500).build();
-        Producto p4 = new Producto.ProductoBuilder(1, "Aspiradora", "Electro", 800).build();
-        Producto p5 = new Producto.ProductoBuilder(1, "Microondas", "Electro", 500).build();
-        Producto p6 = new Producto.ProductoBuilder(1, "Ventiladora", "Electro", 300).build();
+        Producto p1 = new Producto.ProductoBuilder(1, "Papel Suavitel", "Limpieza", 2).build();
+        Producto p2 = new Producto.ProductoBuilder(1, "Cera de piso", "Limpieza", 5).build();
+        Producto p3 = new Producto.ProductoBuilder(1, "Enjuage Downy", "Limpieza", 4).build();
+        Producto p4 = new Producto.ProductoBuilder(1, "Aromatizador", "Limpieza", 6).build();
+        Producto p5 = new Producto.ProductoBuilder(1, "Bolivar", "Limpieza", 25).build();
+        Producto p6 = new Producto.ProductoBuilder(1, "Ayudin", "Limpieza", 2).build();
         
         String aux1 = txtPapel.getText();
         String aux2 = txtCera.getText();
@@ -293,12 +293,12 @@ public class Limpieza extends javax.swing.JPanel {
             int cantE = Integer.parseInt(txtBolivar.getText());
             int cantF = Integer.parseInt(txtAyudin.getText());
             
-            for (int i = 0; i < cantB; i++) {App.lista.add(p3);}
-            for (int i = 0; i < cantA; i++) {App.lista.add(p4);}
-            for (int i = 0; i < cantD; i++) {App.lista.add(p2);}
+            for (int i = 0; i < cantA; i++) {App.lista.add(p1);}
+            for (int i = 0; i < cantB; i++) {App.lista.add(p2);}
+            for (int i = 0; i < cantC; i++) {App.lista.add(p3);}
+            for (int i = 0; i < cantD; i++) {App.lista.add(p4);}
             for (int i = 0; i < cantE; i++) {App.lista.add(p5);}
-            for (int i = 0; i < cantF; i++) {App.lista.add(p1);}
-            for (int i = 0; i < cantC; i++) {App.lista.add(p6);}
+            for (int i = 0; i < cantF; i++) {App.lista.add(p6);}
             limpiar();
         }else{
             JOptionPane.showMessageDialog(null, "Ingrese un numero correcto");
